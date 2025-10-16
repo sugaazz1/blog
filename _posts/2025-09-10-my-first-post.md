@@ -7,7 +7,7 @@ Oct/17/2025
 This summer started out somewhat disappointing. On the last day of school, I went to get my report card from school. After that, I went to the park with my friends to play basketball. I played for about 2 hours then I decided to head home before my dad started calling and yelling at me. Since it was summer my dad allowed me to use my playstation–he takes it away from me each school year– so of course I got on it instantly. But what made it disappointing was the fact that my dad lost my ps4 controller. So I had to order a new one which would take about 3 weeks to arrive. In the meantime, I had to play with a portable keyboard, and since I only had that, I could only play fortnite for about 3 weeks.
 
 <div style="text-align: center;">
-<img style="border: 1px solid black; border-radius: 5px;" class ="pics" src="/blog/pics/gym-photos.jpg" alt = "Planet Fitness" width="500px" height= auto >
+<img style="border: 0px solid black; border-radius: 5px;" class ="pics" src="/blog/pics/gym-photos.jpg" alt = "Planet Fitness" width="500px" height= auto >
 </div>
 
 Since it was summer, it was also time for this guy, ME, to start going to the gym. 
@@ -18,7 +18,7 @@ I talked to my dad about how I was going to move about. I told him, “Dad, is i
 In between all that, I worked a little bit researching colleges. I found out that a good university, Columbia University, is closer to my house than expected. Realization hit me when I figured that to enter this university or any other good university, I would have to up my game during Junior year. I would have to stop my procrastination, do my homework quickly and do frequent reviews: habits that were worse during sophomore year. I said I would use the feynman technique and other studying techniques to help me store memories stronger and longer.
 
 <div style="text-align:center;">
-<img src="/blog/pics/responsibilitiess.webp" alt="Picture of responsibilities" width="500px" height= auto >
+<img src="/blog/pics/responsibilitiess.webp" alt="Picture of responsibilities" width="500px" height= auto style="border-radius:5px;">
 </div>
 
 <h2>Responsibilities...</h2>
