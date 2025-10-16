@@ -1,6 +1,8 @@
 Caleb Ogboe
 <br>
 Oct/17/2025
+<br>
+Summer Blog
 
 <h2> First few weeks of summer</h2>
 
