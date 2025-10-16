@@ -17,7 +17,10 @@ I talked to my dad about how I was going to move about. I told him, “Dad, is i
 <h2>Colleges research</h2>
 In between all that, I worked a little bit researching colleges. I found out that a good university, Columbia University, is closer to my house than expected. Realization hit me when I figured that to enter this university or any other good university, I would have to up my game during Junior year. I would have to stop my procrastination, do my homework quickly and do frequent reviews: habits that were worse during sophomore year. I said I would use the feynman technique and other studying techniques to help me store memories stronger and longer.
 
+<div style="text-align:center;">
 <img src="/blog/pics/responsibilitiess.webp" alt="Picture of responsibilities" width="500px" height= auto >
+</div>
+
 <h2>Responsibilities...</h2>
  During the summer, i realized that I am moving into a higher level in life. I would have to take more internships at STEAM to build a resume to get a good job, and money. Start planning future paths like opening a roth ira when I turn 18, and also thinking about life after college. Getting older comes with a lot of responsibilities which can be overwhelmingly stressful and terrifying. For now though, I told myself, worry about the little things for now, and gradually work your way through so I don’t overwhelm myself.
 
