@@ -11,10 +11,10 @@ For how I go debugging, I read the code to first see what the purpose of the cod
 
 Debugging Example 1:
 
-<img src="/images_for_debugging/debug1.png" alt= "Debugging Example 1" height = auto width = "400px" > 
+<img src="/blog/images_for_debugging/debug1.png" alt= "Debugging Example 1" height = auto width = "400px" > 
 
 Here is an example of a debugging that needs to be done. First thing to do would be to scan the code to see what it's supposed to do. After a quick analysis, we can tell that it's supposed to count how many spaces are in the given string. But as we can see, it's not working. The issue resides in the if statement. Right now, the if statement is only checking if there is am empty string, not a space between the given strings. To fix it, we would change from
 <br>
-    <h6 style="font-weight: bold;">* if char == "": to if char == " ": *</h6>
+    <h5 style="font-weight: bold;"> * if char == "": to if char == " ": *</h6>
 <br>
 So that the new if statement counts the space in the given string instead of an empty string.

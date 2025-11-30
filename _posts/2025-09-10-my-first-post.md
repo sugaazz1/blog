@@ -9,18 +9,18 @@ Summer Blog
 This summer started out somewhat disappointing. On the last day of school, I went to get my report card from school. After that, I went to the park with my friends to play basketball. I played for about 2 hours then I decided to head home before my dad started calling and yelling at me. Since it was summer my dad allowed me to use my playstation–he takes it away from me each school year– so of course I got on it instantly. But what made it disappointing was the fact that my dad lost my ps4 controller. So I had to order a new one which would take about 3 weeks to arrive. In the meantime, I had to play with a portable keyboard, and since I only had that, I could only play fortnite for about 3 weeks.
 
 <div style="text-align: center;">
-<img style="border: 0px solid black; border-radius: 5px;" class ="pics" src="/pics/gym-photos.jpg" alt = "Planet Fitness" width="500px" height= auto >
+<img style="border: 0px solid black; border-radius: 5px;" class ="pics" src="/blog/pics/gym-photos.jpg" alt = "Planet Fitness" width="500px" height= auto >
 </div>
 
 Since it was summer, it was also time for this guy, ME, to start going to the gym. 
 I talked to my dad about how I was going to move about. I told him, “Dad, is it ok with you if I start going to the gym at 9:00am, then come home at like 12:00pm?” He wasn’t ok with that, he said, “and who’s going to watch your little sister?” For context, I have two sisters. One is 14, and the other is 5. And mom isn’t in the picture for personal reasons. “Why can’t she watch winnie–my little sister's nickname– she’s old enough” I said. But he went on talking about oh she’s a girl, this and that. So sadly I had to tweak my schedule if it wasn’t already bad enough. My sleep schedule was as follows, going to bed from between 12:00am to 2:00am, and waking up around 9:00am to 11:00am. My dad came home at around 12:00pm to 1:00pm, sometimes at 4pm. So I guess it worked out in my favor. Wake up at 9 or 11am, eat breakfast, then play games till my dad comes home. I go to the gym, do my daily exercises, come home around 6-8pm, take my shower, then play games till I fall asleep.
 
-<img src="/pics/colleges3.webp" alt="Colleges">
+<img src="/blog/pics/colleges3.webp" alt="Colleges">
 <h2>Colleges research</h2>
 In between all that, I worked a little bit researching colleges. I found out that a good university, Columbia University, is closer to my house than expected. Realization hit me when I figured that to enter this university or any other good university, I would have to up my game during Junior year. I would have to stop my procrastination, do my homework quickly and do frequent reviews: habits that were worse during sophomore year. I said I would use the feynman technique and other studying techniques to help me store memories stronger and longer.
 
 <div style="text-align:center;">
-<img src="/pics/responsibilitiess.webp" alt="Picture of responsibilities" width="500px" height= auto style="border-radius:5px;">
+<img src="/blog/pics/responsibilitiess.webp" alt="Picture of responsibilities" width="500px" height= auto style="border-radius:5px;">
 </div>
 
 <h2>Responsibilities...</h2>
