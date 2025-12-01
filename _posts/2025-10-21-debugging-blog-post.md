@@ -33,9 +33,11 @@ Debuggin Example 2:
 
 A second example of a code that needs to be debugged. First thing to do as usual would be to scan the code to see what it's supposed to do. This code is supposed to be able to take in a number and tell you if the number is odd or even. Now it won't work since they're a few errors in it. 
 To fix it, the first step would be to change the <strong> 'n = input()' to 'n = int(input())' </strong>. Why you may ask? Well, python will automatically read the input as a string, which isn't wrong, but since we're checking for numbers, the for loop will need the input to be an interger/number, so the code doesn't crash. That's the first step. 
-The second step would be to fix the range in the for loop. <strong>range(1,n)</strong> doesn't work because 'range()' excludes the end value, meaning that 'n' won't be included and the range stops before that. Instead we fix that by adding 1 to the n, 'range(1,n+1)' so that the end value is included and it's counted.
+
+The second step would be to fix the range in the for loop. <strong>range(1,n)</strong> doesn't work because <strong>'range()'</strong> excludes the end value, meaning that <strong>'n'</strong> won't be included and the range stops before that. Instead we fix that by adding 1 to the n, <strong>'range(1,n+1)'</strong> so that the end value is included and it's counted.
+
 The 3rd step to make sure this code fufill its duty is to change the if statement. Change it from it's original code to 
-'if num % 2 == 0:'. Now the code can know if the number inserted is even or odd. '0' meaning it's even since even numbers when divided have no remainder, but odd numbers when divided have a remainder. So if it was switched it would be 'if num % 2 == 1'.
+<strong>'if num % 2 == 0:'</strong>. Now the code can know if the number inserted is even or odd. <strong>'0'</strong> meaning it's even since even numbers when divided have no remainder, but odd numbers when divided have a remainder. So if it was switched it would be <strong>'if num % 2 == 1'</strong>.
 
 Here's what the fixed version should look like:
 <img src="/blog/images_for_debugging/debug2fix.png" alt="Debugging Example 2 fixed" height=auto width = "400px">
