@@ -41,3 +41,9 @@ The 3rd step to make sure this code fufill its duty is to change the if statemen
 
 Here's what the fixed version should look like:
 <img src="/blog/images_for_debugging/debug2fix.png" alt="Debugging Example 2 fixed" height=auto width = "400px">
+
+Debugging Example 3: 
+
+<img src="/blog/images_for_debugging/debug3.png" alt="Debugging Example 3" height=auto width="400px"> 
+
+After scanning the code, 
