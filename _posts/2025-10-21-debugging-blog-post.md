@@ -46,4 +46,6 @@ Debugging Example 3:
 
 <img src="/blog/images_for_debugging/debug3.png" alt="Debugging Example 3" height=auto width="400px"> 
 
-After scanning the code, 
+After scanning the code, we can tell that it's supposed to take in any number and give you the factorial of that number. But as usual, there are a few errors within the code preventing it from functioning properly.
+
+First order of business is to fix the <strong>if statment.</strong> Right now it says <strong> if num < -1:</strong>, it should print no negative numbers. The issue is that if you put -1, it's still going to create an issue, because the if statement says if it's less than -1, so we change that from <strong> if num < -1: to if num < 0:</strong> so that it doesn't go below zero.
