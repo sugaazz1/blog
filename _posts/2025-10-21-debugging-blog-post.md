@@ -40,6 +40,7 @@ The 3rd step to make sure this code fufill its duty is to change the if statemen
 <strong>'if num % 2 == 0:'</strong>. Now the code can know if the number inserted is even or odd. <strong>'0'</strong> meaning it's even since even numbers when divided have no remainder, but odd numbers when divided have a remainder. So if it was switched it would be <strong>'if num % 2 == 1'</strong>.
 
 Here's what the fixed version should look like:
+
 <img src="/blog/images_for_debugging/debug2fix.png" alt="Debugging Example 2 fixed" height=auto width = "400px">
 
 Debugging Example 3: 
@@ -55,6 +56,7 @@ Second step is to fix the <strong>range(1, num)</strong>. The error is similar t
 Third step is to fix the issue that resides in the print statement. At first, it looks right, but we have to look closer. A rule of point when coding python is that you can't add intergers and strings together, it's going to create an error. So, ...of " + num + "is" + result is going to create the following error <strong>TypeError: can only concatenate str (not "int") to str</strong>. Hence we use the ',' when trying to add an interger and a string together to avoid such errors.
 
 Here's what the fixed version should look like:
+
 <img src="/blog/images_for_debugging/debug3fix.png" alt="Debugging Example 3 fixed" height=auto width="400px">
 
 
