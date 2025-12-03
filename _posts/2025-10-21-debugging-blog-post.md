@@ -17,8 +17,8 @@ Debugging is the process in which you try to figure out what's wrong with the co
 
 For how I go debugging, I read the code to first see what the purpose of the code is, then I scan to see where the issue might be residing and I begin taking action. Among the various types of errors such as Syntax, RunTime, Identation, and logical, the most common errors are sometimes Syntax errors, which is when you accidentaly put the wrong notation, or forgot to put the notation for that part of the code. Then based on my knowledge of coding, and some help from the internet, I fix the code according to its error.
 
-<p style="
-  background:#f1f5f9;
+<div style="
+  background: rgba(59, 130, 246, 0.6);
   padding:8px 12px;
   font-weight:bold;
   border-left:4px solid #3b82f6;
@@ -36,11 +36,11 @@ Here is an example of a debugging that needs to be done. First thing to do would
     <strong> * if char == "": to if char == " ": *</strong>
 <br>
 So that the new if statement counts the space in the given string instead of an empty string.
-</p>
+</div>
 
 
-<p style="
-  background:#f1f5f9;
+<div style="
+  background: rgba(21, 115, 125, 0.6);
   padding:8px 12px;
   font-weight:bold;
   border-left:4px solid #15737d;
@@ -62,10 +62,10 @@ The 3rd step to make sure this code fufill its duty is to change the if statemen
 Here's what the fixed version should look like:
 
 <img src="/blog/images_for_debugging/debug2fix.png" alt="Debugging Example 2 fixed" height=auto width = "400px">
-</p>
+</div>
 
-<p style="
-  background:#f1f5f9;
+<div style="
+  background: rgba(21, 142, 98, 0.6);
   padding:8px 12px;
   font-weight:bold;
   border-left:4px solid #158e62;
@@ -89,5 +89,5 @@ Third step is to fix the issue that resides in the print statement. At first, it
 Here's what the fixed version should look like:
 
 <img src="/blog/images_for_debugging/debug3fix.png" alt="Debugging Example 3 fixed" height=auto width="400px">
-</p>
+</div>
 
