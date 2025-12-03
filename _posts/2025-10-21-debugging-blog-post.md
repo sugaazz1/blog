@@ -83,9 +83,13 @@ for num in range(1, n):
 ">
 
 <p>A second example of a code that needs to be debugged. First thing to do as usual would be to scan the code to see what it's supposed to do. This code is supposed to be able to take in a number and tell you if the number is odd or even. Now it won't work since they're a few errors in it.</p> 
+
 <p>To fix it, the first step would be to change the <strong> 'n = input()' to 'n = int(input())' </strong>. Why you may ask? Well, python will automatically read the input as a string, which isn't wrong, but since we're checking for numbers, the for loop will need the input to be an interger/number, so the code doesn't crash. That's the first step.</p> 
+
 <p>The second step would be to fix the range in the for loop. <strong>range(1,n)</strong> doesn't work because <strong>'range()'</strong> excludes the end value, meaning that <strong>'n'</strong> won't be included and the range stops before that. Instead we fix that by adding 1 to the n, <strong>'range(1,n+1)'</strong> so that the end value is included and it's counted.</p>
+
 <p>The 3rd step to make sure this code fufill its duty is to change the if statement. Change it from it's original code to <strong>'if num % 2 == 0:'</strong>. Now the code can know if the number inserted is even or odd. <strong>'0'</strong> meaning it's even since even numbers when divided have no remainder, but odd numbers when divided have a remainder. So if it was switched it would be <strong>'if num % 2 == 1'</strong>.</p>
+
 <p>Here's what the fixed version should look like:</p>
 </div>
 
@@ -123,15 +127,15 @@ else:
 padding:8px 12px;
 ">
 
-After scanning the code, we can tell that it's supposed to take in any number and give you the factorial of that number. But as usual, there are a few errors within the code preventing it from functioning properly.
+<p>After scanning the code, we can tell that it's supposed to take in any number and give you the factorial of that number. But as usual, there are a few errors within the code preventing it from functioning properly.</p>
 
-First order of business is to fix the <strong>if statment.</strong> Right now it says <strong> if num < -1:</strong>, it should print no negative numbers. The issue is that if you put -1, it's still going to create an issue, because the if statement says if it's less than -1, which also means it's going to allow -1 in the statment, so we change that from <strong> if num < -1: to if num < 0:</strong> so that it doesn't go below zero and cause an error.
-<br>
-Second step is to fix the <strong>range(1, num)</strong>. The error is similar to that of debugging example 2. <strong>'range()'</strong> as stated earlier excludes the last value of a number you give it. For example, if you said 'range(1, 8)' it's going to stop at 7, right before 8, excluding it. So similar fix to debugging example 2, we change it from <strong>range(1, num):</strong> to <strong>range(1, num + 1)</strong> so that the last value is added. 
-<br>
-Third step is to fix the issue that resides in the print statement. At first, it looks right, but we have to look closer. A rule of point when coding python is that you can't add intergers and strings together, it's going to create an error. So, ...of " + num + "is" + result is going to create the following error <strong>TypeError: can only concatenate str (not "int") to str</strong>. Hence we use the ',' when trying to add an interger and a string together to avoid such errors.
-<br>
-Here's what the fixed version should look like:
+<p>First order of business is to fix the <strong>if statment.</strong> Right now it says <strong> if num < -1:</strong>, it should print no negative numbers. The issue is that if you put -1, it's still going to create an issue, because the if statement says if it's less than -1, which also means it's going to allow -1 in the statment, so we change that from <strong> if num < -1: to if num < 0:</strong> so that it doesn't go below zero and cause an error.</p>
+
+<p>Second step is to fix the <strong>range(1, num)</strong>. The error is similar to that of debugging example 2. <strong>'range()'</strong> as stated earlier excludes the last value of a number you give it. For example, if you said 'range(1, 8)' it's going to stop at 7, right before 8, excluding it. So similar fix to debugging example 2, we change it from <strong>range(1, num):</strong> to <strong>range(1, num + 1)</strong> so that the last value is added.</p> 
+
+<p>Third step is to fix the issue that resides in the print statement. At first, it looks right, but we have to look closer. A rule of point when coding python is that you can't add intergers and strings together, it's going to create an error. So, ...of " + num + "is" + result is going to create the following error <strong>TypeError: can only concatenate str (not "int") to str</strong>. Hence we use the ',' when trying to add an interger and a string together to avoid such errors.</p>
+
+<p>Here's what the fixed version should look like:</p>
 
 </div>
 
@@ -147,3 +151,39 @@ else:
 
 print(f"Factorial of ", num,"is", result)
 ```
+
+<div style="
+  padding:8px 12px;
+">
+
+<h2 style="margin-top: 40px;">Debugging Example 4:</h2> 
+</div>
+
+```python
+attempts = 0
+correct_password = "secret"
+
+while True:
+    password = input("Enter your password: ")
+    attempts += 1
+
+    if password == "incorrect_password":
+        print("Correct password!")
+    else:
+        print("Incorrect password")
+
+    if attempts > 3:
+        print("Too many attempts")
+        break
+```
+
+<div style="
+  padding:8px 12px;
+">
+
+<p></p>
+
+
+
+
+</div>
