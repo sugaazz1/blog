@@ -81,6 +81,11 @@ Third step is to fix the issue that resides in the print statement. At first, it
 
 Here's what the fixed version should look like:
 
+
+<img src="/blog/images_for_debugging/debug3fix.png" alt="Debugging Example 3 fixed" height=auto width="400px">
+
+</div>
+
 ```python
 num = int(input("Enter an integer: "))
 
@@ -92,11 +97,4 @@ else:
     result *= i   
 
 print(f"Factorial of ", num,"is", result)
-
 ```
-
-
-<img src="/blog/images_for_debugging/debug3fix.png" alt="Debugging Example 3 fixed" height=auto width="400px">
-
-</div>
-
