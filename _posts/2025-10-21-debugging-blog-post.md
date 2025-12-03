@@ -22,26 +22,65 @@ For how I go debugging, I read the code to first see what the purpose of the cod
 ">
 
 <h2 style="margin-top: 40px;">Debugging Example 1:</h2>
+</div>
 
+```python
+text = "Hello, world, my name is"
+count = 0
 
+for char in text:
+    if char == "":
+       count += 1
 
-<img src="/blog/images_for_debugging/debug1.png" alt= "Debugging Example 1" height = auto width = "400px" > 
+print(count)
+```
+
+<div style="
+  padding:8px 12px;
+">
 
 Here is an example of a debugging that needs to be done. First thing to do would be to scan the code to see what it's supposed to do. After a quick analysis, we can tell that it's supposed to count how many spaces are in the given string. But as we can see, it's not working. The issue resides in the if statement. Right now, the if statement is only checking if there is am empty string, not a space between the given strings. To fix it, we would change from
 <br>
     <strong> * if char == "": to if char == " ": *</strong>
 <br>
 So that the new if statement counts the space in the given string instead of an empty string.
+<br>
+Here's what the fixed version should look like.
 </div>
 
+```python
+text = input("Hello, world, my name is ")
+count = 0
+
+for char in text:
+    if char == " ":
+       count += 1
+
+print(count)
+```
 
 <div style="
   padding:8px 12px;
 ">
 
 <h2 style="margin-top: 40px;">Debuggin Example 2:</h2> 
+</div>
 
-<img src="/blog/images_for_debugging/debug2.png" alt= "Debugging Example 2" height = auto width = "400px" >
+```python
+print("give me a number")
+n = input()
+
+for num in range(1, n):
+    if num % 2 < 0:
+        print(num, "is even.")
+    else:
+        print(num, "is odd.")
+```
+
+
+<div style="
+  padding:8px 12px;
+">
 
 A second example of a code that needs to be debugged. First thing to do as usual would be to scan the code to see what it's supposed to do. This code is supposed to be able to take in a number and tell you if the number is odd or even. Now it won't work since they're a few errors in it. 
 To fix it, the first step would be to change the <strong> 'n = input()' to 'n = int(input())' </strong>. Why you may ask? Well, python will automatically read the input as a string, which isn't wrong, but since we're checking for numbers, the for loop will need the input to be an interger/number, so the code doesn't crash. That's the first step. 
@@ -50,12 +89,20 @@ The second step would be to fix the range in the for loop. <strong>range(1,n)</s
 
 The 3rd step to make sure this code fufill its duty is to change the if statement. Change it from it's original code to 
 <strong>'if num % 2 == 0:'</strong>. Now the code can know if the number inserted is even or odd. <strong>'0'</strong> meaning it's even since even numbers when divided have no remainder, but odd numbers when divided have a remainder. So if it was switched it would be <strong>'if num % 2 == 1'</strong>.
-
+<br>
 Here's what the fixed version should look like:
-
-<img src="/blog/images_for_debugging/debug2fix.png" alt="Debugging Example 2 fixed" height=auto width = "400px">
 </div>
 
+```python
+print("give me a number")
+n = int(input())
+
+for num in range(1, n+1):
+    if num % 2 == 0:
+        print(num, "is even.")
+    else:
+        print(num, "is odd.")
+```
 
 <div style="
   padding:8px 12px;
@@ -87,7 +134,7 @@ First order of business is to fix the <strong>if statment.</strong> Right now it
 Second step is to fix the <strong>range(1, num)</strong>. The error is similar to that of debugging example 2. <strong>'range()'</strong> as stated earlier excludes the last value of a number you give it. For example, if you said 'range(1, 8)' it's going to stop at 7, right before 8, excluding it. So similar fix to debugging example 2, we change it from <strong>range(1, num):</strong> to <strong>range(1, num + 1)</strong> so that the last value is added. 
 
 Third step is to fix the issue that resides in the print statement. At first, it looks right, but we have to look closer. A rule of point when coding python is that you can't add intergers and strings together, it's going to create an error. So, ...of " + num + "is" + result is going to create the following error <strong>TypeError: can only concatenate str (not "int") to str</strong>. Hence we use the ',' when trying to add an interger and a string together to avoid such errors.
-
+<br>
 Here's what the fixed version should look like:
 
 </div>
