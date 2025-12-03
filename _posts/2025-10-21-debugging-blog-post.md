@@ -18,7 +18,7 @@ Debugging is the process in which you try to figure out what's wrong with the co
 For how I go debugging, I read the code to first see what the purpose of the code is, then I scan to see where the issue might be residing and I begin taking action. Among the various types of errors such as Syntax, RunTime, Identation, and logical, the most common errors are sometimes Syntax errors, which is when you accidentaly put the wrong notation, or forgot to put the notation for that part of the code. Then based on my knowledge of coding, and some help from the internet, I fix the code according to its error.
 
 <div style="
-  background: rgba(21, 93, 147, 0.6);
+  background: rgba(21, 93, 147, 0.2);
   padding:8px 12px;
 ">
 
@@ -37,7 +37,7 @@ So that the new if statement counts the space in the given string instead of an 
 
 
 <div style="
-  background: rgba(21, 115, 125, 0.6);
+  background: rgba(21, 115, 125, 0.2);
   padding:8px 12px;
   
 ">
@@ -60,7 +60,7 @@ Here's what the fixed version should look like:
 </div>
 
 <div style="
-  background: rgba(21, 142, 98, 0.6);
+  background: rgba(21, 142, 98, 0.2);
   padding:8px 12px;
 ">
 
@@ -81,5 +81,6 @@ Third step is to fix the issue that resides in the print statement. At first, it
 Here's what the fixed version should look like:
 
 <img src="/blog/images_for_debugging/debug3fix.png" alt="Debugging Example 3 fixed" height=auto width="400px">
+
 </div>
 
