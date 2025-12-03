@@ -17,7 +17,7 @@ Debugging is the process in which you try to figure out what's wrong with the co
 
 For how I go debugging, I read the code to first see what the purpose of the code is, then I scan to see where the issue might be residing and I begin taking action. Among the various types of errors such as Syntax, RunTime, Identation, and logical, the most common errors are sometimes Syntax errors, which is when you accidentaly put the wrong notation, or forgot to put the notation for that part of the code. Then based on my knowledge of coding, and some help from the internet, I fix the code according to its error.
 
-Debugging Example 1:
+<h2 style="margin-top: 40px;">Debugging Example 1:</h2>
 
 <img src="/blog/images_for_debugging/debug1.png" alt= "Debugging Example 1" height = auto width = "400px" > 
 
@@ -27,7 +27,7 @@ Here is an example of a debugging that needs to be done. First thing to do would
 <br>
 So that the new if statement counts the space in the given string instead of an empty string.
 
-Debuggin Example 2: 
+<h2 style="margin-top: 40px;">Debuggin Example 2:</h2> 
 
 <img src="/blog/images_for_debugging/debug2.png" alt= "Debugging Example 2" height = auto width = "400px" >
 
@@ -43,7 +43,7 @@ Here's what the fixed version should look like:
 
 <img src="/blog/images_for_debugging/debug2fix.png" alt="Debugging Example 2 fixed" height=auto width = "400px">
 
-Debugging Example 3: 
+<h2 style="margin-top: 40px;">Debugging Example 3:</h2> 
 
 <img src="/blog/images_for_debugging/debug3.png" alt="Debugging Example 3" height=auto width="400px"> 
 
@@ -51,7 +51,7 @@ After scanning the code, we can tell that it's supposed to take in any number an
 
 First order of business is to fix the <strong>if statment.</strong> Right now it says <strong> if num < -1:</strong>, it should print no negative numbers. The issue is that if you put -1, it's still going to create an issue, because the if statement says if it's less than -1, which also means it's going to allow -1 in the statment, so we change that from <strong> if num < -1: to if num < 0:</strong> so that it doesn't go below zero and cause an error.
 
-Second step is to fix the <strong>range(1, num)</strong>. The error is similar to that of debugging example 2. <strong>'range()'<strong> as stated earlier excludes the last value of a number you give it. For example, if you said 'range(1, 8)' it's going to stop at 7, right before 8, excluding it. So similar fix to debugging example 2, we change it from <strong>range(1, num):</strong> to <strong>range(1, num + 1)</strong> so that the last value is added. 
+Second step is to fix the <strong>range(1, num)</strong>. The error is similar to that of debugging example 2. <strong>'range()'</strong> as stated earlier excludes the last value of a number you give it. For example, if you said 'range(1, 8)' it's going to stop at 7, right before 8, excluding it. So similar fix to debugging example 2, we change it from <strong>range(1, num):</strong> to <strong>range(1, num + 1)</strong> so that the last value is added. 
 
 Third step is to fix the issue that resides in the print statement. At first, it looks right, but we have to look closer. A rule of point when coding python is that you can't add intergers and strings together, it's going to create an error. So, ...of " + num + "is" + result is going to create the following error <strong>TypeError: can only concatenate str (not "int") to str</strong>. Hence we use the ',' when trying to add an interger and a string together to avoid such errors.
 
