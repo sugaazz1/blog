@@ -18,7 +18,6 @@ Debugging is the process in which you try to figure out what's wrong with the co
 For how I go debugging, I read the code to first see what the purpose of the code is, then I scan to see where the issue might be residing and I begin taking action. Among the various types of errors such as Syntax, RunTime, Identation, and logical, the most common errors are sometimes Syntax errors, which is when you accidentaly put the wrong notation, or forgot to put the notation for that part of the code. Then based on my knowledge of coding, and some help from the internet, I fix the code according to its error.
 
 <div style="
-  background: rgba(21, 93, 147, 0.2);
   padding:8px 12px;
 ">
 
@@ -37,9 +36,7 @@ So that the new if statement counts the space in the given string instead of an 
 
 
 <div style="
-  background: rgba(21, 115, 125, 0.2);
   padding:8px 12px;
-  
 ">
 
 <h2 style="margin-top: 40px;">Debuggin Example 2:</h2> 
@@ -61,12 +58,11 @@ Here's what the fixed version should look like:
 
 
 <div style="
-  background: rgba(21, 142, 98, 0.2);
   padding:8px 12px;
 ">
 
 <h2 style="margin-top: 40px;">Debugging Example 3:</h2> 
-
+</div>
 
 ```python
 num = int(input("Enter an integer: "))
@@ -80,6 +76,10 @@ else:
 
   print("Factorial of " + num + "is" + result)
 ```
+<div style="
+padding:8px 12px;
+">
+
 After scanning the code, we can tell that it's supposed to take in any number and give you the factorial of that number. But as usual, there are a few errors within the code preventing it from functioning properly.
 
 First order of business is to fix the <strong>if statment.</strong> Right now it says <strong> if num < -1:</strong>, it should print no negative numbers. The issue is that if you put -1, it's still going to create an issue, because the if statement says if it's less than -1, which also means it's going to allow -1 in the statment, so we change that from <strong> if num < -1: to if num < 0:</strong> so that it doesn't go below zero and cause an error.
