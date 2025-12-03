@@ -44,8 +44,8 @@ Here is an example of a debugging that needs to be done. First thing to do would
     <strong> * if char == "": to if char == " ": *</strong>
 <br>
 So that the new if statement counts the space in the given string instead of an empty string.
-<br>
-Here's what the fixed version should look like.
+
+<p>Here's what the fixed version should look like.</p>
 </div>
 
 ```python
