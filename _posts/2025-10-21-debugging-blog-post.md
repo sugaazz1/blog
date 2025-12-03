@@ -10,14 +10,24 @@ Dec/5/2025
 Debugging Blog
 
 
-<h2>Debugging Intro</h2>
+<h1>Debugging Intro</h1>
 
 
 Debugging is the process in which you try to figure out what's wrong with the code. Troubleshooting the code to see what's wrong with it and how you can go about fixing the bugs or error in the code that's making it act up. 
 
 For how I go debugging, I read the code to first see what the purpose of the code is, then I scan to see where the issue might be residing and I begin taking action. Among the various types of errors such as Syntax, RunTime, Identation, and logical, the most common errors are sometimes Syntax errors, which is when you accidentaly put the wrong notation, or forgot to put the notation for that part of the code. Then based on my knowledge of coding, and some help from the internet, I fix the code according to its error.
 
+<p style="
+  background:#f1f5f9;
+  padding:8px 12px;
+  font-weight:bold;
+  border-left:4px solid #3b82f6;
+  font-size: 1.1rem;
+">
+
 <h2 style="margin-top: 40px;">Debugging Example 1:</h2>
+
+
 
 <img src="/blog/images_for_debugging/debug1.png" alt= "Debugging Example 1" height = auto width = "400px" > 
 
@@ -26,6 +36,16 @@ Here is an example of a debugging that needs to be done. First thing to do would
     <strong> * if char == "": to if char == " ": *</strong>
 <br>
 So that the new if statement counts the space in the given string instead of an empty string.
+</p>
+
+
+<p style="
+  background:#f1f5f9;
+  padding:8px 12px;
+  font-weight:bold;
+  border-left:4px solid #15737d;
+  font-size: 1.1rem;
+">
 
 <h2 style="margin-top: 40px;">Debuggin Example 2:</h2> 
 
@@ -42,8 +62,19 @@ The 3rd step to make sure this code fufill its duty is to change the if statemen
 Here's what the fixed version should look like:
 
 <img src="/blog/images_for_debugging/debug2fix.png" alt="Debugging Example 2 fixed" height=auto width = "400px">
+</p>
+
+<p style="
+  background:#f1f5f9;
+  padding:8px 12px;
+  font-weight:bold;
+  border-left:4px solid #158e62;
+  font-size: 1.1rem;
+">
 
 <h2 style="margin-top: 40px;">Debugging Example 3:</h2> 
+
+
 
 <img src="/blog/images_for_debugging/debug3.png" alt="Debugging Example 3" height=auto width="400px"> 
 
@@ -58,5 +89,5 @@ Third step is to fix the issue that resides in the print statement. At first, it
 Here's what the fixed version should look like:
 
 <img src="/blog/images_for_debugging/debug3fix.png" alt="Debugging Example 3 fixed" height=auto width="400px">
-
+</p>
 
