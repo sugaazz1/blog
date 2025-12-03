@@ -68,9 +68,18 @@ Here's what the fixed version should look like:
 <h2 style="margin-top: 40px;">Debugging Example 3:</h2> 
 
 
+```python
+num = int(input("Enter an integer: "))
 
-<img src="/blog/images_for_debugging/debug3.png" alt="Debugging Example 3" height=auto width="400px"> 
+if num < -1:
+  print("No negative numbers.")
+else:
+  result = 1
+  for i in range(1, num):
+    result *= i   
 
+  print("Factorial of " + num + "is" + result)
+```
 After scanning the code, we can tell that it's supposed to take in any number and give you the factorial of that number. But as usual, there are a few errors within the code preventing it from functioning properly.
 
 First order of business is to fix the <strong>if statment.</strong> Right now it says <strong> if num < -1:</strong>, it should print no negative numbers. The issue is that if you put -1, it's still going to create an issue, because the if statement says if it's less than -1, which also means it's going to allow -1 in the statment, so we change that from <strong> if num < -1: to if num < 0:</strong> so that it doesn't go below zero and cause an error.
@@ -80,9 +89,6 @@ Second step is to fix the <strong>range(1, num)</strong>. The error is similar t
 Third step is to fix the issue that resides in the print statement. At first, it looks right, but we have to look closer. A rule of point when coding python is that you can't add intergers and strings together, it's going to create an error. So, ...of " + num + "is" + result is going to create the following error <strong>TypeError: can only concatenate str (not "int") to str</strong>. Hence we use the ',' when trying to add an interger and a string together to avoid such errors.
 
 Here's what the fixed version should look like:
-
-
-<img src="/blog/images_for_debugging/debug3fix.png" alt="Debugging Example 3 fixed" height=auto width="400px">
 
 </div>
 
