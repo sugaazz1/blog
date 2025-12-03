@@ -59,6 +59,7 @@ Here's what the fixed version should look like:
 <img src="/blog/images_for_debugging/debug2fix.png" alt="Debugging Example 2 fixed" height=auto width = "400px">
 </div>
 
+
 <div style="
   background: rgba(21, 142, 98, 0.2);
   padding:8px 12px;
@@ -79,6 +80,21 @@ Second step is to fix the <strong>range(1, num)</strong>. The error is similar t
 Third step is to fix the issue that resides in the print statement. At first, it looks right, but we have to look closer. A rule of point when coding python is that you can't add intergers and strings together, it's going to create an error. So, ...of " + num + "is" + result is going to create the following error <strong>TypeError: can only concatenate str (not "int") to str</strong>. Hence we use the ',' when trying to add an interger and a string together to avoid such errors.
 
 Here's what the fixed version should look like:
+
+'''
+num = int(input("Enter an integer: "))
+
+if num < 0:
+  print("No negative numbers.")
+else:
+  result = 1
+  for i in range(1, num + 1):
+    result *= i   
+
+print(f"Factorial of ", num,"is", result)
+
+'''
+
 
 <img src="/blog/images_for_debugging/debug3fix.png" alt="Debugging Example 3 fixed" height=auto width="400px">
 
