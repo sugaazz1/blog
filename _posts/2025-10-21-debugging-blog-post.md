@@ -49,7 +49,7 @@ So that the new if statement counts the space in the given string instead of an 
 </div>
 
 ```python
-text = input("Hello, world, my name is ")
+text = "Hello, world, my name is "
 count = 0
 
 for char in text:
@@ -191,7 +191,7 @@ while True:
 
 <p>Fourth step is fixing the else statement. Here, we bring back the <strong>attempts+=1</strong> and put it under here. Why? because if the user doesn't guess the password right on the first try, this attempt cell begins counting how many tries the user has gotten before the right password; it starts incrementing by 1.</p>
 
-<p>Lastly, we move the third if statement under the else statement so we can keep track, and create a condition for the user if they use up more than 3 attempts. Then we change the <strong>if attempts > 3:</strong> to <strong>if attempts == 3<strong> because we are only giving the user 3 tries to guess the password, not more than 3 tries. This allows the code to be more efficient instead of scattered.</p>
+<p>Lastly, we move the third if statement under the else statement so we can keep track, and create a condition for the user if they use up more than 3 attempts. Then we change the <strong>if attempts > 3:</strong> to <strong>if attempts == 3</strong> because we are only giving the user 3 tries to guess the password, not more than 3 tries. This allows the code to be more efficient instead of scattered.</p>
 
 <p>Here's what the fixed version should look like.</p>
 
@@ -204,7 +204,7 @@ correct_password = "secret"
 
 while True:
     password = input("Enter your password: ")
-    if password.lower() == correct_password:
+    if password == correct_password:
         print("Correct password!")
         break
     else:
