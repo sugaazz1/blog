@@ -183,7 +183,7 @@ while True:
 
 <p>Now this piece of code looks a teeny bit complex from the rest. After scanning through the code, we can tell that it's a password guessing code. In it, you're only supposed to have no more than 3 guesses to guess the password. But there are a few issues wrong within the code that won't make it behave as intended.</p>
 
-<p>The first step is to delete the <strong>'attempts += 1'</strong> under <strong>'password = input("Enter your password: ")</strong> as it is not needed because it'll start counting before checking if the password is correct or not. Moreover, it counts every input as a failed attempt, even the correctly guessed password.
+<p>The first step is to delete the <strong>'attempts += 1'</strong> under <strong>'password = input("Enter your password: ")'</strong> as it is not needed because it'll start counting before checking if the password is correct or not. Moreover, it counts every input as a failed attempt, even the correctly guessed password.
 
 <p>Second step is to change the <strong>if password == "incorrect_password":</strong> because that isn't the correct password given to us in the code. Instead we change it to <strong>if password == correct_password:</strong>.
 
