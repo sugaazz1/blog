@@ -181,9 +181,36 @@ while True:
   padding:8px 12px;
 ">
 
-<p></p>
+<p>Now this piece of code looks a teeny bit complex from the rest. After scanning through the code, we can tell that it's a password guessing code. In it, you're only supposed to have no more than 3 guesses to guess the password. But there are a few issues wrong within the code that won't make it behave as intended.</p>
 
+<p>The first step is to delete the <strong>'attempts += 1'</strong> under <strong>'password = input("Enter your password: ")</strong>as it is not needed because it'll start counting before checking if the password is correct or not. Moreover, it counts every input as a failed attempt, even the correctly guessed password.
 
+<p>Second step is to change the <strong>if password == "incorrect_password":</strong> because that isn't the correct password given to us in the code. Instead we change it to <strong>if password == correct_password:</strong>.
 
+<p>Third step would be to add a break after the following first if statement so that when you guess the correct code, the code stops running. Otherwise, the code just keeps running even if you get it right.</p>
+
+<p>Fourth step is fixing the else statement. Here, we bring back the <strong>attempts+=1</strong> and put it under here. Why? because if the user doesn't guess the password right on the first try, this attempt cell begins counting how many tries the user has gotten before the right password; it starts incrementing by 1.</p>
+
+<p>Lastly, we move the third if statement under the else statement so we can keep track, and create a condition for the user if they use up more than 3 attempts. Then we change the <strong>if attempts > 3:</strong> to <strong>if attempts == 3<strong> because we are only giving the user 3 tries to guess the password, not more than 3 tries. This allows the code to be more efficient instead of scattered.</p>
+
+<p>Here's what the fixed version should look like.</p>
 
 </div>
+
+```python
+attempts = 0
+correct_password = "secret" 
+
+
+while True:
+    password = input("Enter your password: ")
+    if password.lower() == correct_password:
+        print("Correct password!")
+        break
+    else:
+        attempts += 1
+        print("Incorrect password")
+        if attempts == 3:
+            print("Too many attempts")
+            break
+```
