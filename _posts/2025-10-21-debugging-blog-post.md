@@ -215,3 +215,16 @@ while True:
             print("Too many attempts")
             break
 ```
+
+<div style="
+  padding:8px 12px;
+">
+
+<h2>Summary</h2>
+
+<p>Overall, debugging is the process of figuring out what's going wrong in your code and fixing it. 
+Working through these debugging examples helped me understand how important it is to slow down, read the code carefully, and think about what the code is doing versus what it's actually supposed to be doing. 
+By identifying the different types of error in the debugging examples, it helped be understand the problem, and how to break it down and approach it step by step to get a solution. I now have a better understanding on debugging code and understanding their underlying issue. 
+In the future, this experience is going to give me a headstart to debugg code for myself or for other projects.</p>
+
+</div>
