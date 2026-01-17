@@ -16,6 +16,7 @@ Opinion on the movie I, Robot
 <h1> What was it about?  </h1>
 
 The Movie “I, Robot”(2004) is a science fiction movie that takes place in the future; in a world where Artificial Intelligence(AI) is integrated into the everyday human lives. Almost everyone has one. The AI is integrated into human lives by means of being in the form of humanoids, programmed to always obey humans in addition to following strict laws from the programmers. The main three laws that keep them in check are known as “The three main laws of robotics”. The first law follows: 1) A robot may not injure a human being or, through inaction, allow a human being to come to harm. 2) A robot must obey orders given to it by human beings, except where such orders would conflict with the First Law. Lastly 3) A robot must protect its own existence, as long as such protection does not conflict with the First or Second Laws. The plot goes as follows: the main character, detective Dell Spooner begins investigating a sudden mysterious death. The death revolves around a professor who worked with the creation of those humanoid AIs. After doing some investigating, the death makes spooner question whether the machines designed to protect us can also act independently and dangerously. Although the movie might’ve exaggerated its version of AI, it also stands to question if we can fully control, trust, and make decisions in AI systems. AI representation matters because they can often shape or warp the public understanding of emerging technologies such as artificial intelligence affecting how people see and understand the risks and possibilities of real world AI.
+<br>
 
 <h2>Scenes showing aspects of AI:</h2>
 <p style="font-size: 20px; font-weight: bold">Aspects such as decision-making, emotions, physical capabilities, or relationship with humans  </p>
@@ -25,6 +26,7 @@ The Movie “I, Robot”(2004) is a science fiction movie that takes place in th
 </div>
 
 One scene I liked in which the AIs aspect was depicted was the car scene in the detective’s flashback. It flashbacked to when the detective and one other girl were in a car that was sinking in a body of water, instead of saving the girl, the robot saved the detective instead because he had a higher chance of survival. The detective had a 45% chance of survival, while the girl had an 11% chance, so the robot chose him. This scene represents the action of decision making because it shows the robot making a decision that seemed favourable and correct in its opinion. This portrayal seems realistic because stuff that has to do with intelligence–in this case, artificial intelligence, always looks at numbers for facts when it comes to survival and other decision making scenarios. And we know that when it comes to human lives, even people with the lowest chance of survival by some miracle always make it. However it seems we can’t program that into it.
+<br>
 
 <div style="display: flex; justify-content: center; gap: 20px;">
 <img style="border: 3px solid black; border-radius: 5px; " class ="pics" src="/blog/Pics_for_I,Robot/I,Robot-takingout-trash.png" alt = "I, Robot taking out trash" width="400px" height= auto >
@@ -32,6 +34,7 @@ One scene I liked in which the AIs aspect was depicted was the car scene in the 
 </div>
 
 Another scene I liked in which the AIs aspect was depicted is in the beginning of the movie where we can see robots doing different tasks that were originally human. For example, the robot walking multiple dogs, taking out the trash, and some not, all having conversations with their human. This scene represents an aspect of the AI because it shows their physical capabilities: taking out the trash, and walking over 4 dogs, which is more than one person can do. As well as their relationship with humans, as seen when a robot was carrying shopping bags for a lady. Having a master servant relationship. This portrayal seems realistic because users who use AI as of right now, talk to AIs rudely, like a slave, belittle them and try to discriminate against them by calling them a clanker. If we ever reach the stage as shown in the movie, although there will be rules to prevent abuse against AI, some will try to find a loophole against it.
+<br>
 
 <div style="text-align: center;">
 <img style="border: 3px solid black; border-radius: 5px; " class ="pics" src="/blog/Pics_for_I,Robot/Sonnys-dream.jpg" alt = "Sonny's Dream" width="500px" height= auto >
