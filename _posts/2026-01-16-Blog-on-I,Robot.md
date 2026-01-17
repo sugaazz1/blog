@@ -9,7 +9,7 @@ Jan/16/2026
 <br>
 Opinion on the movie I, Robot 
 
-<img style="border: 0px solid black; border-radius: 5px;" class ="pics" src="/blog/Pics_for_I,Robot/I-Robot Cover.jpg" alt = "I, Robot cover" width="500px" height= auto >
+<img style="text-align: center; border: 0.5px solid black; border-radius: 5px; " class ="pics" src="/blog/Pics_for_I,Robot/I-Robot Cover.jpg" alt = "I, Robot cover" width="500px" height= auto >
 
 
 <h1> What was it about?  </h1>
